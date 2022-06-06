@@ -1,3 +1,30 @@
 html{
     scroll-behavior: smooth;
 }
+
+.navbtn:hover{
+    color: #1F1C1C;
+
+}
+
+.PrimaryBtn{
+    border-radius: 16px;
+    color: #0D0E10;
+    padding: 16px 24px;
+    font-size: 16px;
+    /* background: #ECF0F3; */
+    border: 3px solid #0D0E10;
+}
+
+.PrimaryBtn:hover{
+    /* background-color: white; */
+    box-shadow: 0px 9px 0px #0D0E10;
+    transition: 300ms ease-in-out;
+}
+
+.SecondaryBtn{
+    background: #292C31;
+    border-radius: 16px;
+    color: white;
+    padding: 16px 24px;
+}
