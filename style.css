@@ -1,19 +1,23 @@
+@import url(https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,300,400&display=swap);
+
 html{
     scroll-behavior: smooth;
+    font-family: 'Satoshi', sans-serif;
 }
 
 .navbtn:hover{
-    color: #1F1C1C;
+    color: #AB0090;
 
 }
 
 .PrimaryBtn{
     border-radius: 16px;
     color: #0D0E10;
-    padding: 16px 24px;
-    font-size: 16px;
+    padding: 12px 24px;
+    font-size: 18px;
     /* background: #ECF0F3; */
     border: 3px solid #0D0E10;
+    font-weight: 700;
 }
 
 .PrimaryBtn:hover{
@@ -23,8 +27,44 @@ html{
 }
 
 .SecondaryBtn{
-    background: #292C31;
+    background: #0D0E10;
     border-radius: 16px;
     color: white;
-    padding: 16px 24px;
+    padding: 12px 24px;
+    font-weight: 700;
+    border: 3px solid #0D0E10;
+}
+.SecondaryBtn:hover{
+    /* background-color: white; */
+    background: none;
+    font-weight: 700;
+    color: #0D0E10;
+    border: 3px solid #0D0E10;
+    transition: 300ms ease-in-out;
+}
+
+.stickertag{
+    background-image: linear-gradient(270deg, #DA6ECA 0%, #FABFF1 27.26%, #F0A7E5 103.43%);
+    color: #0D0E10;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.stickertag a{
+    text-decoration: underline;
+    padding: 0 4px;
+}
+.stickertag a:hover{
+    color: #0d0e10c1;
+}
+
+#Experience, #Contact, #Portfolio{
+    font-size: 46px;
+    font-weight: 700 ;
+    color: #AB0090;
+}
+
+.exTitle{
+    color: #AB0090;
+    font-weight: 400;
 }
