@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'MaybryPro-reg';
+    src: url('/css/fonts/MabryPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'MaybryPro-med';
+    src: url('/css/fonts/MabryPro-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'MaybryPro-bold';
+    src: url('/css/fonts/MabryPro-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'MaybryPro-black';
+    src: url('/css/fonts/MabryPro-Black.ttf');
+}
+
+body {
+    background-color: #FEFEFF;
+}
+
+.navbar {
+    width: 100%;
+    padding-right: 0;
+    border-bottom: 2px solid #010100;
+    border-top: 2px solid #010100;
+}
+
+.navbtn {
+    font-family: MaybryPro-reg;
+    color: #010100;
+    font-size: 16px;
+}
+
+.ResBtn {
+    font-family: MaybryPro-reg;
+    padding: 24px 54px;
+    font-size: 16px;
+    color: #FEFEFF;
+    background: #010100;
+    border-left: 2px solid #010100;
+}
+
+.ResBtn:hover {
+    color: #010100;
+    background-color: #FF90E7;
+}
+
+.link-underline {
+    padding: 1.6px 0;
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#000, #000);
+    background-size: 0 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .2s ease-in-out;
+}
+
+.link-underline:hover {
+    background-size: 100% 1px;
+    background-position: 0 100%
+}
