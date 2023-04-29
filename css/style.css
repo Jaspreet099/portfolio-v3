@@ -35,6 +35,7 @@ body {
     font-size: 16px;
 }
 
+/* resume button */
 .ResBtn {
     font-family: MaybryPro-reg;
     padding: 24px 54px;
@@ -49,6 +50,7 @@ body {
     background-color: #FF90E7;
 }
 
+/* link hover on navbar buttons */
 .link-underline {
     padding: 1.6px 0;
     border-bottom-width: 0;
@@ -62,4 +64,10 @@ body {
 .link-underline:hover {
     background-size: 100% 1px;
     background-position: 0 100%
+}
+
+/* grid halves in hero section */
+.hero-section .bg-white{
+    /* background-color: #FF90E7; */
+   border-right: 2px solid #010100;
 }
