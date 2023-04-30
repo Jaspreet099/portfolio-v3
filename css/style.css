@@ -1,21 +1,47 @@
+/* Manrope font  */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+/* font-family: 'Manrope', sans-serif; */
+/* Mabry Pro font  */
 @font-face {
-    font-family: 'MaybryPro-reg';
+    font-family: 'MabryPro-reg';
     src: url('/css/fonts/MabryPro-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'MaybryPro-med';
+    font-family: 'MabryPro-med';
     src: url('/css/fonts/MabryPro-Medium.ttf');
 }
 
 @font-face {
-    font-family: 'MaybryPro-bold';
+    font-family: 'MabryPro-bold';
     src: url('/css/fonts/MabryPro-Bold.ttf');
 }
 
 @font-face {
-    font-family: 'MaybryPro-black';
+    font-family: 'MabryPro-black';
     src: url('/css/fonts/MabryPro-Black.ttf');
+}
+
+/* Power Grotesk font  */
+@font-face {
+    font-family: 'PowerGrotesk-reg';
+    src: url('/css/fonts/PowerGroteskTRIAL-Regular.otf');
+}
+
+@font-face {
+    font-family: 'PowerGrotesk-med';
+    src: url('/css/fonts/PowerGroteskTRIAL-Medium.otf');
+}
+
+@font-face {
+    font-family: 'PowerGrotesk-bold';
+    src: url('/css/fonts/PowerGroteskTRIAL-Bold.otf');
+}
+
+@font-face {
+    font-family: 'PowerGrotesk-heavy';
+    src: url('/css/fonts/PowerGroteskTRIAL-Heavy.otf');
 }
 
 body {
@@ -30,14 +56,14 @@ body {
 }
 
 .navbtn {
-    font-family: MaybryPro-reg;
+    font-family: MabryPro-reg;
     color: #010100;
     font-size: 16px;
 }
 
 /* resume button */
 .ResBtn {
-    font-family: MaybryPro-reg;
+    font-family: MabryPro-reg;
     padding: 24px 54px;
     font-size: 16px;
     color: #FEFEFF;
@@ -48,6 +74,7 @@ body {
 .ResBtn:hover {
     color: #010100;
     background-color: #FF90E7;
+    transition: .2s ease-in-out;
 }
 
 /* link hover on navbar buttons */
@@ -67,7 +94,45 @@ body {
 }
 
 /* grid halves in hero section */
-.hero-section .bg-white{
+.hero-section .bg-white {
     /* background-color: #FF90E7; */
-   border-right: 2px solid #010100;
+    border-right: 2px solid #010100;
+
+}
+
+.bg-white .p1 {
+    font-family: PowerGrotesk-reg;
+    font-size: 52px;
+    line-height: 66px;
+}
+
+.bg-white .p1 .s1 {
+    color: #AB0090;
+    font-family: PowerGrotesk-heavy;
+}
+
+.s2 {
+    color: #22A195;
+    font-family: PowerGrotesk-Heavy;
+}
+
+.p2 {
+    font-family: PowerGrotesk-med;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.p2 span {
+    color: #22A195;
+}
+
+.bg-green {
+    background-color: #22A195;
+}
+
+.rec {
+    /* position: absolute; */
+    width: 290px;
+    height:400px;
+    background: #90FFE4;
 }
