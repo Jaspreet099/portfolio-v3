@@ -136,3 +136,20 @@ body {
     height:400px;
     background: #90FFE4;
 }
+
+
+.btn{
+    font-family: PowerGrotesk-med;
+    font-size: 24px;
+    padding: 6px 12px;
+    color: #010100;
+    border: 2px solid #010100;
+    border-radius: 4px;
+    background-color: #FEFEFF;
+}
+
+.btn:hover{
+    filter: drop-shadow(4px 4px 0 #010100);
+    transition: .2s ease-in-out;
+
+}
