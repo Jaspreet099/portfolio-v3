@@ -154,6 +154,7 @@ body {
 
 }
 
+/* eperience section  */
 .title{
     font-family: PowerGrotesk-reg;
     font-size: 52px;
@@ -163,4 +164,14 @@ body {
 .title span{
     font-family: PowerGrotesk-heavy;
     color: #AB0090;
+}
+
+.Exp-para{
+    font-family: PowerGrotesk-reg;
+    font-size: 20px;
+}
+
+.Exp-para span{
+    font-family: PowerGrotesk-heavy;
+    color: #22A195;
 }
