@@ -26,7 +26,7 @@
 /* Power Grotesk font  */
 @font-face {
     font-family: 'PowerGrotesk-reg';
-    src: url('/css/fonts/PowerGroteskTRIAL-Regular.otf');
+    src: url('/css/fonts/PowerGrotesk-Regular.ttf');
 }
 
 @font-face {
@@ -133,12 +133,12 @@ body {
 .rec {
     /* position: absolute; */
     width: 290px;
-    height:400px;
+    height: 400px;
     background: #90FFE4;
 }
 
 
-.btn{
+.btn {
     font-family: PowerGrotesk-med;
     font-size: 24px;
     padding: 6px 12px;
@@ -148,30 +148,86 @@ body {
     background-color: #FEFEFF;
 }
 
-.btn:hover{
+.btn:hover {
     filter: drop-shadow(4px 4px 0 #010100);
     transition: .2s ease-in-out;
 
 }
 
 /* eperience section  */
-.title{
+.title {
     font-family: PowerGrotesk-reg;
     font-size: 52px;
     color: #010100;
 }
 
-.title span{
+.title span {
     font-family: PowerGrotesk-heavy;
     color: #AB0090;
 }
 
-.Exp-para{
+.Exp-para {
     font-family: PowerGrotesk-reg;
     font-size: 20px;
 }
 
-.Exp-para span{
+.Exp-para span {
     font-family: PowerGrotesk-heavy;
     color: #22A195;
+}
+
+.bdr {
+    border-left: 3px dashed #0D0E10;
+    height: 400px;
+}
+
+.dotInPink {
+    background-color: #AB0090;
+}
+
+.Exp-time {
+    font-family: PowerGrotesk-reg;
+    font-size: 22px;
+    color: #010100;
+    line-height: 26px;
+}
+
+.Exp-card {
+    background: #FEFEFF;
+    border: 2px solid #010100;
+    border-radius: 4px;
+    padding: 26px;
+}
+
+.Exp-card:hover {
+    box-shadow: 6px 6px 0px #000000;
+    transition: .2s ease-in-out;
+}
+
+.Exp-card-position {
+    font-family: MabryPro-black;
+    font-size: 22px;
+    color: #010100;
+}
+
+.Exp-card-company {
+    font-family: PowerGrotesk-reg;
+    font-size: 18px;
+    color: #22A195;
+}
+
+.Exp-card-details {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: PowerGrotesk-reg;
+    color: #010100;
+}
+
+.skill-tag {
+    font-family: MabryPro-med;
+    font-size: 12px;
+    padding: 5px 10px;
+    background: #FEFEFF;
+    border: 2px solid #010100;
+    border-radius: 60px;
 }
