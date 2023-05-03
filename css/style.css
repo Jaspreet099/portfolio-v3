@@ -231,3 +231,60 @@ body {
     border: 2px solid #010100;
     border-radius: 60px;
 }
+
+/* contact */
+
+.inp-box {
+    background: rgba(34, 161, 149, 0.25);
+    border: 2px solid #010100;
+    border-radius: 2px;
+    height: 40px;
+    width: 472px;
+    padding: 16px 250px 16px 16px;
+    font-family: MabryPro-bold;
+    font-size: 14px;
+    color: #010100;
+}
+
+.inp-box:focus,
+.inp-box::after {
+    outline: none;
+    color: #010100;
+}
+
+.inp-textbox {
+    background: rgba(34, 161, 149, 0.25);
+    border: 2px solid #010100;
+    border-radius: 2px;
+    width: 472px;
+    padding: 16px 250px 16px 16px;
+    font-family: MabryPro-bold;
+    font-size: 14px;
+    color: #010100;
+}
+
+.inp-textbox:focus,
+.inp-textbox::after {
+    outline: none;
+    color: #010100;
+}
+
+.contact-box {
+    background: #FEFEFF;
+    border: 2px solid #010100;
+    border-radius: 2px;
+    padding: 48px;
+}
+
+.send-button {
+    font-family: MabryPro-bold;
+    font-size: 20px;
+    padding: 6px 24px;
+    border: 2px solid #010100;
+    border-radius: 60px;
+}
+
+.send-button:hover{
+    box-shadow: 4px 4px 0px #000000;
+
+}
