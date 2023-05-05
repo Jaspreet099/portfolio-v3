@@ -288,3 +288,37 @@ body {
     box-shadow: 4px 4px 0px #000000;
 
 }
+
+
+/* portfolio */
+.card{
+    background: #FEFEFF;
+    border: 2px solid #010100;
+    border-radius: 4.5px;
+}
+
+.card .card-img{
+   border-top-left-radius: 2px;
+   border-top-right-radius: 2px;
+    border-bottom: 2px solid #010100;
+}
+
+.card:hover{
+    box-shadow: 4px 4px 0px #000000;
+}
+
+.card-heading{
+    font-family: MabryPro-med;
+    font-size: 26px;
+}
+.card-text{
+    font-family: MabryPro-reg;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.read-btn{
+    font-family: MabryPro-med;
+    font-size: 18px;
+    text-decoration: none;
+}
